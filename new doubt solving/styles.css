@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/black-1072366_1280.jpg);
+    background-position: center;
+    background-size: cover; 
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+/* .navbar{
+    height: 12%;
+    display: flex;
+    align-items: center ;
+} */
+/* .navbar {
+    background-color: #333;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 5%;
+} */
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+
+
+
+.logo {
+    width: 60px; /* Increase the logo size */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+/* nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+} */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; /* Reduce font size for better readability */
+    
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+
+/* .heading{
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 80px;
+} */
+.heading {
+    text-align: center;
+    margin-top: 20px; /* Add spacing between the navbar and heading */
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px; /* Reduce the font size for better alignment */
+    margin-bottom: 20px; /* Add spacing below the heading */
+    font-family: 'Caveat', cursive;
+}
+
+
+/* .row{
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+
+h3{
+    color: #fff;
+    font-size: 40px;
+}
+p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 1;
+} */
+.row {
+    display: flex;
+    height: 40%; /* Reduce the row height */
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+}
+
+.col {
+    text-align: center;
+}
+
+/* Adjust font size for h3 and p for better readability */
+h3 {
+    color: #fff;
+    font-size: 38px;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+} */
+button {
+    width: 180px; /* Increase button width */
+    font-size: 18px; /* Increase font size */
+    padding: 15px 20px; /* Increase padding for better button size */
+    background: #00f; /* Change button background color */
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px; /* Increase border-radius for rounded buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Add smooth background color and transform transitions */
+    margin-right: 30px;
+}
+
+button:hover {
+    background-color: #007bff; /* Change background color on hover */
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+

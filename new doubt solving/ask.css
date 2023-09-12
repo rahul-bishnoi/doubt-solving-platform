@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;  
+}
+h1 {
+    font-family: 'Caveat', cursive;
+}
+
+/* Custom CSS for Breadcrumb */
+.breadcrumb {
+    background-color: #555; /* Background color */
+    padding: 10px 15px;
+    margin-bottom: 0px;
+}
+
+.breadcrumb .breadcrumb-item {
+    font-size: 20px;
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #fff; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+    text-decoration: underline; /* Link color on hover */
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 84.3vh;
+    
+    background: #333;
+}
+
+
+#doubt-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#doubt-input {
+    padding: 10px;
+    width: 70%;
+    
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #555;
+}
